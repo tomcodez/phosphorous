@@ -105,12 +105,21 @@ document.getElementById("d2luZG93LW90aGVyLWZsb29kYnV0dG9u").onclick = function (
   };
 };
 
+document.getElementById("YWxsb3ktYnV0dG9a").onclick = function () {
+  document.getElementById("aWZyYW1laWQ").style.visibility = "visible";
+  document.getElementById("aWZyYW1laWQ").src = "https://edgenuity.herokuapp.com/service/hvtrs8%2F-dksaopd%2Ccmm-lmgkn";
+  document.getElementById("aWZyYW1laWQ").style.zIndex = "1";
+  document.getElementById("aWZyYW1laWQ").style.width = '900px';
+  document.getElementById("aWZyYW1laWQ").style.height = '600px';
+  
+};
+
 document.getElementById("aW5jb2duaXRvLWJ1dHRvbg").onclick = function () {
   document.getElementById("aWZyYW1laWQ").style.visibility = "visible";
   document.getElementById("aWZyYW1laWQ").src = "https://home-access-center.herokuapp.com/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-";
   document.getElementById("aWZyYW1laWQ").style.zIndex = "1";
   document.getElementById("aWZyYW1laWQ").style.width = '900px';
-  document.getElementById("aWZyYW1laWQ").style.height = '600px';  
+  document.getElementById("aWZyYW1laWQ").style.height = '600px';
 };
 
 document.getElementById("YWxsb3ktYnV0dG9u").onclick = function () {
@@ -177,6 +186,10 @@ document.getElementById("eW91dHViZS1zZWFyY2gtYnV0dG9u").onclick = function () {
 
 document.getElementById("eW91dHViZS1idXR0b24").onclick = function () {
   youtube();
+};
+
+document.getElementById("YWxsb3ktYnV0dG9a").onclick = function () {
+  window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 };
 
 
